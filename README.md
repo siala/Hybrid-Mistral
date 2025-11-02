@@ -2,7 +2,7 @@
 Description
 -----------
 
-This repository is a CDCL version of [Mistral-2.0] dedicated to resolve (Disjunctive) Scheduling Problems using novel learning mechanisms. So far, only the classical Job Shop and Open Shop Problems (JSP and OSP) are experimentally tested with academic benchmarks. 
+Hybrid-Mistral is a hybrid CP/SAT solver designed to tackle Disjunctive Scheduling Problems. The SAT engine implements standard Conflict-Driven Clause Learning (CDCL) techniques such as Adaptive Branching (VSIDS), Two-Watched Literals, and 1-UIP Cuts. The latter features are built on top of Mistral-2.0. Propagators are augmented with explanation routines that are invoked only during conflict analysis.
 
 Installation
 --------------
